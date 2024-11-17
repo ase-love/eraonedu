@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no"/>
+<title></title>
+
+<link type="text/css" rel="stylesheet" href="../js/jquery-ui/jquery-ui.min.css">
+<link type="text/css" rel="stylesheet" href="../js/swiper/swiper-bundle.min.css" />
+<link type="text/css" rel="stylesheet" href="../css/style.css" />
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="../js/swiper/swiper-bundle.min.js"></script>
+<script src="../js/jquery-ui/jquery-ui.min.js"></script>
+<script src="../js/ui.js"></script>
+
+
+</head>
+<body>
+<!-- wrap -->
+<div class="wrap">
+  <script>
+     $.get("common/header.html", function(data) {
+        $(data).prependTo(".wrap");
+    });
+  </script>
+
+  <!-- lectoure-course -->
+  <div class="lectoure-course">
+    <div class="wrapper">
+      <button type="button" class="img">
+        <img src="../images/temp/temp-lecture.jpg" alt="">
+        <div class="play-wrap">
+          <i class="ico-play"></i>
+        </div>
+        <div class="gage-wrap">
+          <span class="txt">진도율 : 14강/100강(12.3%)</span>
+          <div class="gage-bar"><span class="bar" style="width:50%;"></span></div>
+        </div>
+      </button>
+      <div class="desc">
+        <div class="root"><span>정보처리산업기사</span><span>알고리즘 문제풀이 입문</span></div>
+        <b class="tit">it 취업을 위한 알고리즘 문제풀이 입문 (with C/C++) : 코딩테스트 대비</b>
+      </div>
+    </div>
+  </div>
+  <!-- // lectoure-course -->
+
+  <!-- container -->
+  <div class="container">
+    <main class="content">
+      <div class="tab-type1 sticky">
+        <ul>
+          <li><a href="javascript:void(0);">대시보드</a></li>
+          <li><a href="javascript:void(0);">공지사항</a></li>
+          <li class="on"><a href="javascript:void(0);">질문답변</a></li>
+          <li><a href="javascript:void(0);">수강평</a></li>
+        </ul>
+      </div>
+      <div class="lecure-notice-wrap">
+        <h1 class="title-subject"><i class="ico-question"></i><span>질문답변</span></h1>
+        
+        <div class="detail-view">
+          <div class="detail-header">
+            <h2 class="tit">43번 강의내용에 문의있습니다.</h2>
+            <div class="info">
+              <div class="root"><span>섹션1 실기강의</span><span>코드분석 강의입니다.</span></div>
+              <div class="right">
+                <p class="name">홍길동</p>
+                <span class="date">2024.03.22</span>
+                <span class="view">200</span>
+                <span class="reple">3</span>
+              </div>
+            </div>
+          </div>
+          <div class="view-wrap">
+            <div class="view pre-line">코드를 작성하고 돌려보니
+              1 ~ 2 pass였지만 나머지 3 ~ 5번에서 문제가 발생하였습니다.
+              그래서 코드를 다시 확인을 해봐도 원인를 못 찾았다.
+              그래서 강사님의 코드로도 체점을 진행해보니 동일한 결과가 발생하였습니다.
+              그래서 in 3 ~ 5을 보니 문제와 다르게 배열의 크기가 100,000 으로 설정되어 있는 것을 발견하였습니다.
+              아마 제 예상으로는 in 3 ~ 5까지의 문제가 다른 문제로 바꾼 것 같습니다. 한번 확인해주시면 감사합니다.
+              
+            </div>
+          </div>
+
+          <script>
+            $.get("common/review.html", function(data) {
+               $(data).appendTo(".detail-view");
+               $('.review-answer').show();
+               $('.top-menu').show();
+               $('.btn-wrap').show();
+           });
+         </script>
+        </div>
+      </div>
+    </main>
+    <!-- // content -->
+
+    <script>
+      $.get("common/additional-info.html", function(data) {
+         $(data).appendTo(".container");
+     });
+   </script>
+  </div>
+  <!-- // container -->
+
+  <script>
+    $.get("common/footer.html", function(data) {
+       $(data).appendTo(".wrap");
+   });
+ </script>
+</div>
+<!-- // wrap -->
+
+</body>
+</html>
