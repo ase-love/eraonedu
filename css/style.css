@@ -46,9 +46,9 @@
 .main-lecture-wrap .swiper-button-prev{left:-20px;}
 .main-lecture-wrap .swiper-button-next{right:-20px;}
 .main-lecture-wrap .main-lecture-list{margin-top:30px;overflow:hidden;}
-.main-lecture-wrap .main-lecture-list .swiper-slide .img{display:flex;justify-content:center;align-items:center;height:180px;}
-.main-lecture-wrap .main-lecture-list .swiper-slide .img img{object-fit: cover;width:100%;height:100%;border-radius:12px;}
-.main-lecture-wrap .main-lecture-list .swiper-slide .desc{margin-top:8px;color: #1F2125;}
+.main-lecture-wrap .main-lecture-list .swiper-slide .img{display:flex;justify-content:center;align-items:center;height:150px;}
+.main-lecture-wrap .main-lecture-list .swiper-slide .img img{object-fit: cover;width:100%;height:100%;border-radius:10px;}
+.main-lecture-wrap .main-lecture-list .swiper-slide .desc{margin-top:16px;color: #1F2125;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .info{font-size:13px;display:flex;align-items:center;justify-content: space-between;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .info .left{font-weight:500;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .info .right span{color: #86909C;}
@@ -90,7 +90,7 @@
 .merit-advantages-list2 li {display:flex;align-items:center;}
 .merit-advantages-list2 li .desc {display:flex;flex-direction: column;gap:8px;}
 .merit-advantages-list2 li .desc em {display:block;font-weight: 700;color: #5436EA;    font-size: 16px;}
-.merit-advantages-list2 li .desc b {line-height: 140%;font-weight: 800;font-size: 24px;color: #000000;}
+.merit-advantages-list2 li .desc b {line-height: 140%;font-weight: 800;font-size: 22px;color: #000000;}
 .merit-advantages-list2 li .desc ul li {position:relative; padding-left:10px; font-size: 15px;letter-spacing: -0.5px;color: #666666;}
 .merit-advantages-list2 li .desc ul li ~ li{margin-top:3px;}
 .merit-advantages-list2 li .desc ul li:before{content:'';display:block;width:5px;height:1px;background:#666666;position:absolute;top:8px;left:0;}
@@ -118,9 +118,9 @@
 .main-review-wrap .main-review-list .swiper-slide.swiper-slide-next,
 .main-review-wrap .main-review-list .swiper-slide.swiper-slide-active{opacity: 1;}
 .main-review-wrap .main-review-list .swiper-slide .review-box{height:346px; padding:30px;box-shadow: 2px 20px 30px rgba(17, 42, 128, 0.04);border-radius:20px;background:#fff;}
-.main-review-wrap .main-review-list .swiper-slide .review-box dt b {font-size:18px;font-weight:500; color:#000;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:1.3em;height:2.6em;}
-.main-review-wrap .main-review-list .swiper-slide .review-box dt em {display:block;margin-top:20px; color:#5436EA;font-weight:600;font-size:16px;}
-.main-review-wrap .main-review-list .swiper-slide .review-box dd {padding-top:20px;margin-top:20px;font-size:15px; color:#1F2125;border-top:1px solid #EDEEF0; overflow: hidden; white-space: pre-line; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; word-wrap: break-word; line-height: 1.46em; height: 11.5em; }
+.main-review-wrap .main-review-list .swiper-slide .review-box dt b {font-size:16px;font-weight:500; color:#000;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:1.3em;height:2.6em;}
+.main-review-wrap .main-review-list .swiper-slide .review-box dt em {display:block;margin-top:10px; color:#5436EA;font-weight:600;font-size:14px;}
+.main-review-wrap .main-review-list .swiper-slide .review-box dd {padding-top:20px;margin-top:20px;font-size:14px; color:#1F2125;border-top:1px solid #EDEEF0; overflow: hidden; white-space: pre-line; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; word-wrap: break-word; line-height: 1.46em; height: 11.5em; }
 .main-review-wrap .main-review-list .swiper-button-prev,
 .main-review-wrap .main-review-list .swiper-button-next{z-index: 22;width:60px;height:60px;border-radius:60px;  background-color: #FFFFFF; box-shadow: 0px 2px 20px rgba(5, 14, 56, 0.12); border-radius: 9999px; background-size:auto 30px;background-position:50% 50%;background-repeat:no-repeat;}
 .main-review-wrap .main-review-list .swiper-button-prev:after,
