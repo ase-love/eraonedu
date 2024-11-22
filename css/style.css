@@ -56,7 +56,8 @@
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .tit.line2{-webkit-line-clamp:2;height:2.8em;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .tit + .info{margin-top:5px;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .sale-price{margin-top:5px;font-size:16px;font-weight:600;}
-.main-lecture-wrap .main-lecture-list .swiper-slide .desc .sale-price .price{display:flex;align-items:center;gap:10px;}
+.main-lecture-wrap .main-lecture-list .swiper-slide .desc .sale-price .price{display:flex;align-items:center;gap:10px;font-weight:600;}
+.main-lecture-wrap .main-lecture-list .swiper-slide .desc .sale-price .price b{font-weight:600;}
 .main-lecture-wrap .main-lecture-list .swiper-slide .desc .sale-price .sale{color: #5436EA;}
 
 .main-banner-wrap{position:relative;margin:0 auto;overflow:hidden;margin-top:100px;}
